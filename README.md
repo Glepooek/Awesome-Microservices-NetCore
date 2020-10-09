@@ -17,8 +17,22 @@ If you liked this repo or if it helped you, please give a star ⭐️ for this r
   - [Microservices with .NET Core and Docker](#microservices-with-net-core-and-docker)
   - [.NET Microservices Architecture Guidance (Microsoft)](#net-microservices-architecture-guidance-microsoft)
   - [A Microservices Implementation Journey](#a-microservices-implementation-journey)
-  - [Microservices and Docker with .Net Core and Azure Service Fabric/Kubernetes](#microservices-and-docker-with-net-core-and-azure-service-fabric-kubernetes)
+  - [Microservices and Docker with .Net Core and Azure Service Fabric/Kubernetes](#microservices-and-docker-with-net-core-and-azure-service-fabrickubernetes)
+  - [Microservices with .NET Core Tutorials](#microservices-with-net-core-tutorials)
 - [Other Tutorials](#other-tutorials)
+- [Books](#books)
+  - Building Microservices with .NET Core
+  - Hands-On Software Architecture with C# 8 and .NET Core 3
+  - Microservices by examples using .NET Core
+  - Building Microservices with ASP.NET Core
+  - Building Microservices with .NET Core 2.0
+  - Hands-On Microservices with C#
+  - Hands-On Microservices with C# 8 and .NET Core 3
+  - Microservices in .NET Core
+- [Free eBooks](#free-ebooks)
+  - .NET Microservices: Architecture for Containerized .NET Applications
+  - Microservices in .NET Core (with examples in Nancy)
+  - Microservices Recipes (a free gitbook)
 - [Other Repositories](#other-repositories)
 - [Contribution](#contribution)
 - [Licence](#license)
@@ -55,19 +69,21 @@ If you liked this repo or if it helped you, please give a star ⭐️ for this r
 
 5. [Building microservices through Event Driven Architecture part5: dockerization (Web Api Core and SQL Server Linux)](https://logcorner.com/building-microservices-through-event-driven-architecture-part5-dockerization-web-api-core-and-sql-server-linux/)
 
-6. [Building microservices through Event Driven Architecture part7: Implementing EventSourcing on Domain Model](https://logcorner.com/building-microservices-through-event-driven-architecture-part7-event-sourcing-core-domain/)
+6. [Building microservices through Event Driven Architecture part6: Implementing EventSourcing on Domain Model](https://logcorner.com/building-microservices-through-event-driven-architecture-part7-event-sourcing-core-domain/)
 
-7. [Building microservices through Event Driven Architecture part8: Implementing EventSourcing on Repositories](https://logcorner.com/building-microservices-through-event-driven-architecture-part7-implementing-eventsourcing-on-repositories/)
+7. [Building microservices through Event Driven Architecture part7: Implementing EventSourcing on Repositories](https://logcorner.com/building-microservices-through-event-driven-architecture-part7-implementing-eventsourcing-on-repositories/)
 
-8. [Building microservices through Event Driven Architecture part9: Implementing EventSourcing on Application](https://logcorner.com/building-microservices-through-event-driven-architecture-part8-implementing-eventsourcing-on-application/)
+8. [Building microservices through Event Driven Architecture part8: Implementing EventSourcing on Application](https://logcorner.com/building-microservices-through-event-driven-architecture-part8-implementing-eventsourcing-on-application/)
 
-9. [Building microservices through Event Driven Architecture part10: Handling updates](https://logcorner.com/building-microservices-through-event-driven-architecture-part10-handling-updates-and-deletes/)
+9. [Building microservices through Event Driven Architecture part09: Handling updates](https://logcorner.com/building-microservices-through-event-driven-architecture-part10-handling-updates-and-deletes/)
 
-10. [Building microservices through Event Driven Architecture part11: Run Unit tests inside a docker container](https://logcorner.com/building-microservices-through-event-driven-architecture-part11-run-unit-tests-inside-a-docker-container/)
+10. [Building microservices through Event Driven Architecture part10: Run Unit tests inside a docker container](https://logcorner.com/building-microservices-through-event-driven-architecture-part11-run-unit-tests-inside-a-docker-container/)
 
-11. [Building microservices through Event Driven Architecture part12: Continuous Integration](https://logcorner.com/building-microservices-through-event-driven-architecture-part12-continuous-integration/)
+11. [Building microservices through Event Driven Architecture part11: Continuous Integration](https://logcorner.com/building-microservices-through-event-driven-architecture-part12-continuous-integration/)
 
-**Repository :** https://github.com/logcorner/LogCorner.EduSync.Speech.Command/
+12. [Building microservices through Event Driven Architecture part12 : Produce events to Apache KAFKA](https://logcorner.com/building-microservices-through-event-driven-architecture-part12-produce-events-to-apache-kafka/)
+
+**Repository :** https://github.com/logcorner/LogCorner.EduSync.Speech.Command/  https://github.com/logcorner/LogCorner.EduSync.Speech.ServiceBus
 
 ### Building API Gateway Using Ocelot In ASP.NET Core 
 
@@ -229,47 +245,126 @@ If you liked this repo or if it helped you, please give a star ⭐️ for this r
 
 ### A Microservices Implementation Journey
 
-- [A Microservices implementation journey — Part 1](https://koukia.ca/a-microservices-implementation-journey-part-1-9f6471fe917)
+1. [A Microservices implementation journey — Part 1](https://koukia.ca/a-microservices-implementation-journey-part-1-9f6471fe917)
 
-- [A Microservices implementation journey — Part 2](https://koukia.ca/a-microservices-implementation-journey-part-2-10c422a4d402)
+2. [A Microservices implementation journey — Part 2](https://koukia.ca/a-microservices-implementation-journey-part-2-10c422a4d402)
 
-- [A Microservices implementation journey — Part 3](https://koukia.ca/a-microservices-implementation-journey-part-3-50f030ba6bb5)
+3. [A Microservices implementation journey — Part 3](https://koukia.ca/a-microservices-implementation-journey-part-3-50f030ba6bb5)
 
-- [A Microservices implementation journey — Part 4](https://koukia.ca/a-microservices-implementation-journey-part-4-9c19a16385e9)
+4. [A Microservices implementation journey — Part 4](https://koukia.ca/a-microservices-implementation-journey-part-4-9c19a16385e9)
 
-- [A Microservices implementation journey — Part 5](https://koukia.ca/a-microservices-implementation-journey-part-5-d7d1b9d441e7)
+5. [A Microservices implementation journey — Part 5](https://koukia.ca/a-microservices-implementation-journey-part-5-d7d1b9d441e7)
 
-- [A Microservices implementation journey — Part 5](https://koukia.ca/a-microservices-implementation-journey-part-6-9b818e491336)
+6. [A Microservices implementation journey — Part 6](https://koukia.ca/a-microservices-implementation-journey-part-6-9b818e491336)
 
 **Repository :** https://github.com/aramkoukia/microservices-prototype
 
 ### Microservices and Docker with .Net Core and Azure Service Fabric/Kubernetes
 
-- [Microservices and Docker with .Net Core and Azure Service Fabric - Part One](http://elvanydev.com/Microservices-part1/)
+1. [Microservices and Docker with .Net Core and Azure Service Fabric - Part One](http://elvanydev.com/Microservices-part1/)
 
-- [Microservices and Docker with .Net Core and Azure Service Fabric - Part two](http://elvanydev.com/Microservices-part2/)
+2. [Microservices and Docker with .Net Core and Azure Service Fabric - Part two](http://elvanydev.com/Microservices-part2/)
 
-- [Microservices and Docker with .Net Core and Azure Service Fabric - Part three](http://elvanydev.com/Microservices-part3/)
+3. [Microservices and Docker with .Net Core and Azure Service Fabric - Part three](http://elvanydev.com/Microservices-part3/)
 
-- [Microservices and Docker with .Net Core and Azure Service Fabric - Part four](http://elvanydev.com/Microservices-part4/)
+4. [Microservices and Docker with .Net Core and Azure Service Fabric - Part four](http://elvanydev.com/Microservices-part4/)
 
-- [Building resilient applications with Polly](http://elvanydev.com/resilience-with-polly/)
+5. [Building resilient applications with Polly](http://elvanydev.com/resilience-with-polly/)
 
 **Repository :** https://github.com/vany0114/microservices-dotnetcore-docker-sf-k8s
 
+### Microservices with .NET Core Tutorials
+
+1. [Understanding Microservices Architecture](https://www.dotnettricks.com/learn/microservices/architecture-example-advantages)
+
+2. [Getting Started with Azure Service Fabric](https://www.dotnettricks.com/learn/microservices/azure-service-fabric)
+
+3. [Building a Microservice with ASP.NET Core](https://www.dotnettricks.com/learn/microservices/building-micro-services-azure-service-fabric)
+
+4. [Building an Azure Service Fabric Cluster](https://www.dotnettricks.com/learn/microservices/building-an-azure-service-fabric-cluster)
+
+5. [Microservices Deployment Patterns](https://www.dotnettricks.com/learn/microservices/deployment-patterns)
+
 ## Other Tutorials
 
-1. [Microservices with ASP.NET Core 3.1](https://procodeguide.com/programming/microservices-asp-net-core/)
+- [Microservices with ASP.NET Core 3.1](https://procodeguide.com/programming/microservices-asp-net-core/)
     - **Repository :** https://github.com/procodeguide/Microservices.Sample
 
-2. [Microservices using ASP.NET Core, Ocelot, MongoDB and JWT](https://www.codeproject.com/Articles/5271708/Microservices-using-ASP-NET-Core-Ocelot-MongoDB-an)
+- [Microservices using ASP.NET Core, Ocelot, MongoDB and JWT](https://www.codeproject.com/Articles/5271708/Microservices-using-ASP-NET-Core-Ocelot-MongoDB-an)
     - **Repository :** https://github.com/aelassas/store
 
-3. [Get Started Building Microservices with ASP.NET Core and Docker in Visual Studio Code](https://fullstackmark.com/post/12/get-started-building-microservices-with-asp.net-core-and-docker-in-visual-studio-code)
+- [Get Started Building Microservices with ASP.NET Core and Docker in Visual Studio Code](https://fullstackmark.com/post/12/get-started-building-microservices-with-asp.net-core-and-docker-in-visual-studio-code)
     - **Repository :** https://github.com/mmacneil/ASPNETCoreDockerMicroservices
     
-4. [Microservices with event sourcing using .NET Core](https://medium.com/@madslundt/microservices-with-event-sourcing-using-net-core-33e3074171f5)
+- [Microservices with event sourcing using .NET Core](https://medium.com/@madslundt/microservices-with-event-sourcing-using-net-core-33e3074171f5)
     - **Repository :** https://github.com/madslundt/NetCoreMicroservicesSample
+	
+- [Microservice Architecture in ASP.NET Core with API Gateway](https://www.codewithmukesh.com/blog/microservice-architecture-in-aspnet-core/)
+    - **Repository :** https://github.com/iammukeshm/Microservice.WebApi
+	
+- [RabbitMQ with ASP.NET Core – Microservice Communication with MassTransit](https://www.codewithmukesh.com/blog/rabbitmq-with-aspnet-core-microservice/)
+    - **Repository :** https://github.com/iammukeshm/Microservices.Ticketing.WebApi
+
+- [Programming a Microservice with .Net Core 3.1](https://www.programmingwithwolfgang.com/programming-microservices-net-core-3-1/)
+    - **Repository :** https://github.com/WolfgangOfner/MicroserviceDemo
+
+- [How To Develop Microservices Using .Net Core & Docker](https://www.3pillarglobal.com/insights/develop-microservices-net-core-docker)
+
+- [Using Microservices in .Net Core and Docker container](https://medium.com/@didourebai/using-microservices-in-net-core-and-docker-container-c202785dd295)
+
+- [Microservices Using ASP.NET Core](https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/)
+
+- [Microservice using ASP.NET Core](https://www.codeproject.com/Articles/1276639/Microservice-using-ASP-NET-Core)
+
+- [Microservices Using .Net Core 2.X With C# and Docker](https://dzone.com/articles/micro-services-using-net-core-2x-with-c-and-docker)
+	
+- [Edwin van Wijk — Building microservices with .NET Core and Docker (Video)](https://www.youtube.com/watch?v=-AfZxdXa7yc)
+
+- [Microservice architecture with ASP.NET Core (Video)](https://www.youtube.com/watch?v=2ooo-igyTrs)
+
+- [Implement microservices patterns with .NET Core and Docker containers - BRK3317 (Video)](https://www.youtube.com/watch?v=1vK3TXXZ3zI)
+
+- [Create .NET Core Microservice Using Best Practices (Video)](https://www.youtube.com/watch?v=MpQkwbq2SZ8)
+
+- [APIs and Microservices in ASP.NET Core Today and Tomorrow - Glenn Condron (Video)](https://www.youtube.com/watch?v=dUdGcogYkss)
+
+- [Microservices and more in .NET Core 3.0 (Video)](https://www.youtube.com/watch?v=cNdPbTB72bw)
+
+- [Ocelot Api Gateway with ASP.NET Core 2.1 and VS Code (Video)](https://www.youtube.com/watch?v=kl-NeEAb1WQ)
+
+- [Building Reactive Microservices with .NET Core - Kevin Hoffman, Capital One (Video)](https://www.youtube.com/watch?v=bGdar01KNzg)
+
+- [Building .NET Microservices — Kevin Hoffmann (Video)](https://www.youtube.com/watch?v=-a8v_IRSveY)
+
+- [Dan Wahlin on Microservices with Docker, Angular, and ASP.Net Core | Evening of Angular (Video)](https://www.youtube.com/watch?v=acykoYAgBsA)
+
+- [Building Resilient Microservices with .NET Core and Steeltoe - Zach Brown & Matt Horan, Pivotal (Video)](https://www.youtube.com/watch?v=2HF6HFhGH60)
+
+## Books
+
+- [Building Microservices with .NET Core](https://www.amazon.com/Building-Microservices-NET-Core-Reactive-ebook/dp/B01MQ52RM3) <small>(by Gaurav Kumar Aroraa, Lalit Kale, and Kanwar Manish)</small>
+
+- [Hands-On Software Architecture with C# 8 and .NET Core 3](https://www.amazon.com/Hands-Software-Architecture-NET-Core-ebook/dp/B081JNHSM2) <small>(by Gabriel Baptista and Francesco Abbruzzese)</small>
+
+- [Microservices by examples using .NET Core](https://www.amazon.com/Microservices-examples-using-NET-Core/dp/9387284581) <small>(by Biswa Pujarini Mohapatra, Baishakhi Banerjee, and Gaurav Aroraa)</small>
+
+- [Building Microservices with ASP.NET Core](https://www.amazon.com/Building-Microservices-ASP-NET-Core-Cross-Platform-ebook/dp/B0758YB73N) <small>(by Kevin Hoffman)</small>
+
+- [Building Microservices with .NET Core 2.0](https://www.amazon.com/Building-Microservices-NET-Core-Transitioning-ebook-dp-B075VB9YL7/dp/B075VB9YL7) <small>(by Gaurav Aroraa)</small>
+
+- [Hands-On Microservices with C#](https://www.amazon.com/Hands-Microservices-real-world-enterprise-grade-microservice-ebook/dp/B07F6YDCWG) <small>(by Matt R. Cole)</small>
+
+- [Hands-On Microservices with C# 8 and .NET Core 3](https://www.amazon.com/Hands-Microservices-NET-Core-microservices-ebook/dp/B081V8QYL9) <small>(by Gaurav Aroraa and Ed Price)</small>
+
+- [Microservices in .NET Core](https://www.amazon.com/Microservices-NET-Core-examples-Nancy/dp/1617293377) <small>(by Christian Horsdal Gammelgaard)</small>
+
+## Free eBooks
+
+- [.NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/) - [Download PDF](https://aka.ms/microservicesebook)
+
+- [Microservices in .NET Core (with examples in Nancy)](https://livebook.manning.com/book/microservices-in-net-core/about-this-book/) - [Manning Publications](https://www.manning.com/books/microservices-in-net-core)
+
+- [Microservices Recipes (a free gitbook)](https://github.com/vaquarkhan/microservices-recipes-a-free-gitbook)
 
 ## Other Repositories
 
@@ -354,6 +449,16 @@ If you liked this repo or if it helped you, please give a star ⭐️ for this r
 - https://github.com/vany0114/chaos-injection-using-simmy
 
 - https://github.com/aelassas/store
+
+- https://github.com/mspnp/microservices-reference-implementation
+
+- https://github.com/SteeltoeOSS/Samples/tree/master/MusicStore
+
+- https://github.com/mohamed-abdo/vehicle-tracking-microservices
+
+- https://github.com/gfawcett22/EnterprisePlanner
+
+- https://github.com/daxnet/we-text
 
 ## Contribution
 
